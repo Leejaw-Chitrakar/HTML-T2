@@ -10,6 +10,11 @@ body{
     align-items: center;
 }
 
+h3{
+    padding-left: 20px;
+    transform: translateY(-30px);
+}
+
 .customer-profile{
     display: flex;
     flex-direction: row;
@@ -25,11 +30,11 @@ body{
 }
 
 .tick{
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     border-radius: 50%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    transform: translateX(900px);
+    transform: translate(690px, 7px);
 }
 
 table, td, th{
@@ -55,16 +60,16 @@ td:nth-child(6) {
     justify-content: center;
     align-items: center;
     background-color: rgba(255, 255, 255, 0.6);
-    transform: translateY(5%);
+    transform: translateY(20%);
     border-radius: 20px;
 }
 
 .T-head {
     width: 100%;
+    height: 70px;
     font-weight: bold;
     font-size: 30px;
     text-align: left;
-    padding:  0 10px;
     box-sizing: border-box;
     background-color: rgba(255, 255, 255, 0.8);
     border-top-left-radius: 20px;
@@ -72,17 +77,17 @@ td:nth-child(6) {
 }
 
 .container {
-    width: 1200px;
+    width: 1000px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    /* background-color: white; */
     padding: 20px;
 }
 
+
 .table-container{
-    width: 1200px;
+    width: 1000px;
     align-items: center;
     border: 1px solid black;
     border-radius: 20px;
