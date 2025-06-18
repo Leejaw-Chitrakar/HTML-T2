@@ -42,6 +42,11 @@ td, th{
     padding: 10px;
 }
 
+th:nth-child(6),
+td:nth-child(6) {
+    font-weight: bold; /* Yo chai 'Amount' column lai bold garna*/
+}
+
 .header {
     width: fit-content;
     height: fit-content;
