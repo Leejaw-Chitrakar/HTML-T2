@@ -134,3 +134,47 @@ td, th{
 .amount{
     width: 150px;
 }
+
+#delivered{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 5px;
+    background-color: #7aff7f;
+    color: green;
+}
+
+#cancelled{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 5px;
+    background-color: #ff8888;
+    color: red;
+}
+
+#pending{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 5px;
+    background-color: #f9da5f;
+    color: black;
+}
+
+#shipped{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 5px;
+    background-color: #42abf2;
+    color: black;
+}
