@@ -1,0 +1,136 @@
+body{
+    background-image: url(./image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    justify-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.customer-profile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+}
+
+.profile{
+    width: 15%;
+    height: 15%;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.tick{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transform: translateX(900px);
+}
+
+table, td, th{
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+}
+
+td, th{
+    padding: 10px;
+}
+
+.header {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.6);
+    transform: translateY(5%);
+    border-radius: 20px;
+}
+
+.T-head {
+    width: 100%;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: left;
+    padding:  0 10px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.container {
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: white; */
+    padding: 20px;
+}
+
+.table-container{
+    width: 1200px;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+#data{
+    border-collapse: collapse;
+}
+
+#data tr:nth-child(odd){
+    background-color: #949393;
+}
+
+#data tr:nth-child(even){
+    background-color: #bfbfbf;
+}
+
+#data tr:nth-child(8) td:first-child {
+    border-bottom-left-radius: 20px;
+}
+
+#data tr:nth-child(8) td:last-child {
+    border-bottom-right-radius: 20px;
+}
+
+#data tr:first-child th:first-child {
+    border-top-left-radius: 20px;
+}
+
+#data tr:first-child th:last-child {
+    border-top-right-radius: 20px;
+}
+
+.id{
+    width: 100px;
+}
+
+.customer{
+    width: 250px;
+}
+
+.location{
+    width: 200px;
+}
+
+.order-date{
+    width: 200px;
+}
+
+.status{
+    width: 200px;
+}
+
+.amount{
+    width: 150px;
+}
